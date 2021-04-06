@@ -1,0 +1,36 @@
+.tablist-container {
+    width: 370px;
+    background: white;
+    box-shadow: 1px 0 30px rgba(0, 0, 0, .06);
+    position: relative;
+    z-index: 2;
+}
+
+.tablist {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.tablist li {
+    position: relative;
+    z-index: 99;
+    background-color: #ffffff;
+}
+
+.tablist li:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.tablist::after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: calc(100% - 140px);
+    background: #ebebeb;
+    left: 73.5px;
+    z-index: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

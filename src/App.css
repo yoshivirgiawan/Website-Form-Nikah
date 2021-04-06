@@ -1,0 +1,17 @@
+.App {
+  padding: 50px 0;
+  background: #222222;
+  display: flex;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.margin-bottom-38 {
+  margin-bottom: 38px;
+}
+
+.margin-right-30 {
+  margin-right: 30px;
+}

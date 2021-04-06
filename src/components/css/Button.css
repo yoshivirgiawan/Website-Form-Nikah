@@ -1,0 +1,45 @@
+.btn:focus, .btn.focus {
+    box-shadow: none;
+}
+
+.nextButton {
+    background-color: #023047;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px 30px;
+    transition: all .25s ease-out;
+}
+
+.nextButton:hover {
+    background-color: transparent;
+    border: 1px solid #E8E8E8;
+    color: #a0a0a0;
+}
+
+.nextButton:active {
+    border: 1px solid #2684FF;
+    box-shadow: 0 0 0 1px #2684FF;
+    transform: scale(.90);
+}
+
+.previousButton {
+    background-color: #E8E8E8;
+    color: #999999;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px 30px;
+    transition: all .25s ease-out;
+}
+
+.previousButton:hover {
+    background-color: transparent;
+    border: 1px solid #E8E8E8;
+    color: #a0a0a0;
+}
+
+.previousButton:active {
+    border: 1px solid #2684FF;
+    box-shadow: 0 0 0 1px #2684FF;
+    transform: scale(.90);
+}

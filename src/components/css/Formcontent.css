@@ -1,0 +1,47 @@
+.form-content-container {
+    background-color: #F8F8F8;
+    flex: 1 1;
+    position: relative;
+    z-index: 1;
+    padding: 40px;
+}
+
+.form-content {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 2px 30px rgba(0, 0, 0, .08);
+}
+
+.form-content-header {
+    background-color: #023047;
+    color: #ffffff;
+    padding: 50px 40px;
+    border-radius: 15px 15px 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form-main-content {
+    padding: 40px;
+}
+
+.table th {
+    border-top: none;
+    color: #343a40 !important;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 50%;
+}
+
+.table td {
+    border-top: none;
+    font-size: 16px;
+    color: #495057;
+    font-weight: 600;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
